@@ -39,7 +39,7 @@ const Navigation = React.forwardRef((props, ref) => {
       expand="lg"
     >
       <Navbar.Brand className="brand" href={process.env.PUBLIC_URL + "/#home"}>   
-        <img src="ek_logo.png" alt="logo"  width="70px" height="40px" />
+        <img src="mylogo.png" alt="logo"  width="70px" height="40px" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">

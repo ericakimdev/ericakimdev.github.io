@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Erica",
   middleName: "",
   lastName: "Kim",
-  message: " Hello, my name is Erica. I am a Software Developer. ",
+  message: " Full-Stack Developer ",
   icons: [
     {
       image: "fas fa-envelope-square",
@@ -21,7 +21,7 @@ const mainBody = {
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/erica-kim-09a379173/",
+      url: "https://www.linkedin.com/in/ericakimcanada/",
     },
   ],
 };
@@ -37,10 +37,10 @@ const about = {
 
 const repos = {
   show: true,
-  heading: "Recent Projects",
+  heading: "Personal Projects",
   gitHubUsername: "ericakimcanada",
   reposLength: 4,
-  specificRepos: ["mlworbo", "goodmeals"],
+  specificRepos: ["goodmeals", "mlworbo"],
 };
 
 // SKILLS SECTION
@@ -48,15 +48,18 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
+    { name: "Java", value: 75 },
+    { name: "JavaScript", value: 70 },
+    { name: "HTML/CSS", value: 65 },
+    { name: "C#", value: 70 },
     { name: "SQL", value: 75 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
+    { name: "AngularJS", value: 70 },
     { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Spring", value: 65 }
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 }
+    { name: "Korean", value: 100 },
+    { name: "Japanese", value: 90 }
   ],
 };
 
@@ -65,17 +68,17 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'BUCKLAND - Junior Application Developer',
+      role: 'Junior Application Developer at BUCKLAND',
       companylogo: require('../assets/img/buckland.png'),
       date: 'May 2020 – August 2020',
     },
     {
-      role: 'PulseInfoframe - Software Developer Co-op',
+      role: 'Software Developer Co-op at PulseInfoframe',
       companylogo: require('../assets/img/pulse.png'),
       date: 'January – April 2019, September – December 2019',
     },
     {
-      role: 'Ibbotson Associates Japan (Morningstar) - Data Analyst',
+      role: 'Data Analyst at Ibbotson Associates Japan (Morningstar)',
       companylogo: require('../assets/img/morningstart.png'),
       date: 'December 2009 – September 2015',
     },

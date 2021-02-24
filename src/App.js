@@ -5,9 +5,7 @@ import {
   mainBody,
   about,
   repos,
-  leadership,
   skills,
-  //getInTouch,
   experiences
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
@@ -16,8 +14,6 @@ import Project from "./components/home/Project";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Skills from "./components/home/Skills";
-//import GetInTouch from "./components/home/GetInTouch.jsx";
-//import Leadership from "./components/home/Leadership.jsx";
 import Experience from "./components/home/Experience";
 
 const Home = React.forwardRef((props, ref) => {
@@ -36,7 +32,6 @@ const Home = React.forwardRef((props, ref) => {
           message={about.message}
           link={about.imageLink}
           imgSize={about.imageSize}
-        //resume={about.resume}
         />
       )}
       {
@@ -52,14 +47,6 @@ const Home = React.forwardRef((props, ref) => {
           specfic={repos.specificRepos}
         />
       )}
-      {/* {leadership.show && (
-        <Leadership
-          heading={leadership.heading}
-          message={leadership.message}
-          img={leadership.images}
-          imageSize={leadership.imageSize}
-        />
-      )} */}
       {skills.show && (
         <Skills
           heading={skills.heading}
@@ -79,16 +66,7 @@ const App = () => {
     <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
       {navBar.show && <Navbar ref={titleRef} />}
       <Route path="/" exact component={() => <Home ref={titleRef} />} />
-      {/* {false && <Route path="/blog" exact component={Blog} />}
-      {false && <Route path="/blog/:id" component={BlogPost} />} */}
       <Footer>
-        {/* {getInTouch.show && (
-          <GetInTouch
-            heading={getInTouch.heading}
-            message={getInTouch.message}
-            email={getInTouch.email}
-          />
-        )} */}
       </Footer>
     </BrowserRouter>
   );

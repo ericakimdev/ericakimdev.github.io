@@ -17,7 +17,7 @@ const ProjectCard = ({ value }) => {
     <Col md={6}>
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
         <Card.Body>
-          <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
+          <Card.Title as="h3">{name || <Skeleton />} </Card.Title>
           <Card.Text>{(!description)?"":description || <Skeleton count={3} />} </Card.Text>
           {svn_url ? <CardButtons svn_url={svn_url} /> : <Skeleton count={2} />}
           <hr />
@@ -26,11 +26,11 @@ const ProjectCard = ({ value }) => {
           ) : (
             <Skeleton count={3} />
           )}
-          {value ? (
+          {/* {value ? (
             <CardFooter star_count={stargazers_count} repo_url={svn_url} pushed_at={pushed_at} />
           ) : (
             <Skeleton />
-          )}
+          )} */}
         </Card.Body>
       </Card>
     </Col>
@@ -40,14 +40,14 @@ const ProjectCard = ({ value }) => {
 const CardButtons = ({ svn_url }) => {
   return (
     <>
-      <a
+      {/* {svn_url ? <a
         href={`${svn_url}/archive/master.zip`}
         className="btn btn-outline-secondary mr-3"
       >
         <i className="fab fa-github" /> Clone Project
-      </a>
+      </a> : ''} */}
       <a href={svn_url} target=" _blank" className="btn btn-outline-secondary">
-        <i className="fab fa-github" /> Repo
+        <i className="fab fa-github" /> Repository
       </a>
     </>
   );
