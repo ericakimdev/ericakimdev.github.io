@@ -1,1 +1,1 @@
-# EricaKimCanada.github.io
+# ericakimdev.github.io
