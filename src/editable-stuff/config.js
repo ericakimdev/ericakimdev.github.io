@@ -9,19 +9,19 @@ const mainBody = {
   firstName: "Erica",
   middleName: "",
   lastName: "Kim",
-  message: " Full-Stack Developer ",
+  message: " A Full-Stack Developer ",
   icons: [
     {
       image: "fas fa-envelope-square",
-      url: `mailto:ericakim0601@gmail.com`,
+      url: `mailto:ericakimdev@gmail.com`,
     },
     {
       image: "fa-github-square",
-      url: "https://github.com/ericakimcanada",
+      url: "https://github.com/ericakimdev",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/ericakimcanada/",
+      url: "https://www.linkedin.com/in/ericakimdev/",
     },
   ],
 };
@@ -38,9 +38,9 @@ const about = {
 const repos = {
   show: true,
   heading: "Personal Projects",
-  gitHubUsername: "ericakimcanada",
+  gitHubUsername: "ericakimdev",
   reposLength: 4,
-  specificRepos: ["goodmeals", "mlworbo"],
+  specificRepos: ["goodmeals", "mlworbo", "sprintapp"],
 };
 
 // SKILLS SECTION
