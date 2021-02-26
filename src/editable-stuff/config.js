@@ -70,17 +70,17 @@ const experiences = {
     {
       role: 'Junior Application Developer at BUCKLAND',
       companylogo: require('../assets/img/buckland.png'),
-      date: 'May 2020 – August 2020',
+      date: 'May 2020 – Aug 2020',
     },
     {
       role: 'Software Developer Co-op at PulseInfoframe',
       companylogo: require('../assets/img/pulse.png'),
-      date: 'January – April 2019, September – December 2019',
+      date: 'Jan – Apr 2019 & Sep – Dec 2019',
     },
     {
       role: 'Data Analyst at Ibbotson Associates Japan (Morningstar)',
       companylogo: require('../assets/img/morningstart.png'),
-      date: 'December 2009 – September 2015',
+      date: 'Dec 2009 – Sep 2015',
     },
   ]
 }
