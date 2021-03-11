@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Erica",
   middleName: "",
   lastName: "Kim",
-  message: " A Full-Stack Developer ",
+  message: " Hello. I am a Full Stack Developer. ",
   icons: [
     {
       image: "fas fa-envelope-square",
@@ -32,7 +32,7 @@ const about = {
   imageLink: require("../editable-stuff/ericakim_photo2.jpg"),
   imageSize: 300,
   message:
-    "I'm an enthusiastic, responsible and hard working IT person. Being worked for different projects helped me to adopt to the changes quickly. My goal is to pursue my passion within the field of software engineering.",
+    "Hello! I am Erica. I'm an enthusiastic, responsible and hard working IT person. Being worked for different projects helped me to adopt to the changes quickly. My goal is to pursue my passion within the field of software engineering.",
 };
 
 const repos = {
