@@ -1,3 +1,5 @@
-# ericakimdev.github.io
+# Erica Kim Portfolio
 
-Erica's Portfolio
+Link: https://ericakimdev.github.io/
+
+
